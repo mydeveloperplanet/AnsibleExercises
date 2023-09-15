@@ -1,0 +1,11 @@
+- name: Install Apache webserver
+  hosts: target1
+  become: yes
+  roles:
+    - webserver
+
+- name: Install Apache webserver for target2
+  hosts: target2
+  become: yes
+  roles:
+    - webserver

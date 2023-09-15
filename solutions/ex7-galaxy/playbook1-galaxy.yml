@@ -1,0 +1,5 @@
+- name: Install Docker
+  hosts: target2
+  become: yes
+  roles: # used from https://galaxy.ansible.com/geerlingguy/docker
+    - geerlingguy.docker
