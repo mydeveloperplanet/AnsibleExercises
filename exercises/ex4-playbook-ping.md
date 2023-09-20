@@ -7,7 +7,7 @@ In this exercise, you will learn how to create a playbook which pings the target
 
 1. Create a playbook yaml file.
 
-2. Create in the playbook a play for each target machine (although this seems redundant).
+2. Create in the playbook a play for each target machine (although this seems redundant, you could specify both hosts for the play).
 The format of a play is:
 
 ```yaml

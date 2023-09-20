@@ -38,7 +38,7 @@ The welcome message should have been changed to the new one.
 
 9. Change the welcome message in order that it makes use of a variable (using Ninja2 syntax).
 
-10. Create in the `roles` directory a directory `defaults` and add a `main.yml` file.
+10. Create in the `roles/webserver-var/` directory a directory `defaults` and add a `main.yml` file.
 
 11. Assign the variable with a sensible default message. E.g.
 ```yaml

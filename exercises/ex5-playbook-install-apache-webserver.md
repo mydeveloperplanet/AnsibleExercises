@@ -16,14 +16,19 @@ More information can be found [here](https://docs.ansible.com/ansible/latest/pla
 
 4. Add the `become: yes` parameter to the play.
 
-5. Execute the playbook and add the argument `--ask-become-pass`.
+5. Execute the playbook and add the argument `--ask-become-pass`. As an alternative solution, you can add `ansible_become_password` in the `vars` file of the target machine.
 
 6. Notice that in the `PLAY RECAP` the changed parameter has value 1 (meaning, the play changed something on the machine).
 
 7. Navigate in the browser on the host machine or on the controller machine to the webpage of Apache Webserver.
 The Apache Default Page must be shown.
 ```
-http://<ip adress>
+http://<ip address>
+```
+
+Alternative, use `curl` in the terminal:
+```shell
+curl http://<ip address>
 ```
 
 8. Add another task to change the default page.

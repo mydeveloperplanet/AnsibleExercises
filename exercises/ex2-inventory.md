@@ -5,9 +5,14 @@ In this exercise you will learn how to create an inventory and how to manage you
 
 ## Steps
 
-1. Create a directory inventory and add an `inventory.ini` file.
+1. Create a directory `inventory` and add an `inventory.ini` file.
 
 2. Add both targets to the inventory file. Choose any name you like for the targets.
+E.g.
+```yaml
+target1
+target2
+```
 
 3. Create a directory `host_vars` in directory `inventory` and add for each target a directory corresponding to the name you chose in 1.
 
@@ -49,4 +54,4 @@ target1 | SUCCESS => {
 <group names>
 ```
 
-10. Verify whether the ping command can be executed for the group.
+10. Verify whether the ping command can be executed for the group of groups.
