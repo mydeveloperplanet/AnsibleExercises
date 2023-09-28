@@ -9,7 +9,7 @@ In this exercise you will learn how to create an inventory and how to manage you
 
 2. Add both targets to the inventory file. Choose any name you like for the targets.
 E.g.
-```yaml
+```text
 target1
 target2
 ```
@@ -41,7 +41,7 @@ target1 | SUCCESS => {
 ```
 
 7. Create a group containing both target machines in the inventory. Syntax is:
-```yaml
+```text
 [<group name>]
 <machine names>
 ```
@@ -49,7 +49,7 @@ target1 | SUCCESS => {
 8. Verify whether the ping command can be executed for the group
 
 9. Create a group of groups in the inventory. Syntax is:
-```yaml
+```text
 [<group name>:children]
 <group names>
 ```

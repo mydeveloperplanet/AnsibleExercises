@@ -36,7 +36,7 @@ The welcome message should have been changed to the new one.
 
 8. Create a new role (e.g. `webserver-var`) similar to the `webserver` role.
 
-9. Change the welcome message in order that it makes use of a variable (using Ninja2 syntax).
+9. Change the welcome message in order that it makes use of a variable (using Jinja2 syntax).
 
 10. Create in the `roles/webserver-var/` directory a directory `defaults` and add a `main.yml` file.
 
